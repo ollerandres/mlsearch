@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/activity_margin">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_products"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin">
+
+        <android.support.v7.widget.SearchView
+            android:id="@+id/sv_products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_search_view"
+            app:iconifiedByDefault="false"/>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_products"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/cv_products"/>
+
+    <include layout="@layout/error_no_connection" />
+    <include layout="@layout/error_empty_query" />
+    <include layout="@layout/error_message" />
+    <include layout="@layout/error_no_results" />
+
+</RelativeLayout>

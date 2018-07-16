@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MLSearch</string>
+    <string name="search_product">Busca tu producto</string>
+    <string name="action_settings">Settings</string>
+    <string name="error_no_connection">Error de conexión. Conéctese e intente nuevamente.</string>
+    <string name="retry">Reintentar</string>
+    <string name="error_no_results">Lo sentimos, no encontramos resultados. Cambie su busqueda e intente nuevamente.</string>
+    <string name="error_no_query">Escribe algun producto para buscar.</string>
+    <string name="rating">PUNTAJE VENDEDOR</string>
+    <string name="city">CIUDAD</string>
+    <string name="state">PROVINCIA</string>
+    <string name="country">PAIS</string>
+    <string name="free_shipping">ENVIO GRATUITO?</string>
+</resources>
